@@ -16,7 +16,7 @@ name: template_slide
 .footer[Team 30 - Varun Bora, Thomas Culham, Pranav Gulati, David Cole]
 
 ---
-name: flowchart
+name: flowcharts
 
 # Firmware Implementation
 
@@ -36,7 +36,7 @@ name: flowchart
 - Auto-triggering the ADC with a 1ms timer to ensure 1kHz sample rate.
 
 ---
-name: S1
+name: accuracy_1
 
 # Accuracy (PI)
 
@@ -52,7 +52,7 @@ name: S1
 </div>
 
 ---
-name: S2
+name: accuracy_2
 
 # Accuracy (PII)
 
@@ -71,7 +71,7 @@ name: S2
 </div>
 
 ---
-name: S3
+name: sec_1
 
 # Smart Energy Challenge (PI)
 
@@ -92,7 +92,7 @@ name: S3
 </div>
 
 ---
-name: S4
+name: sec_2
 
 # Smart Energy Challenge (PII)
 
@@ -118,7 +118,7 @@ name: S4
 </div>
 
 ---
-name: S5
+name: sec_3
 
 # Smart Energy Challenge (PIII)
 
