@@ -1,0 +1,46 @@
+.row {
+  height: 100%;
+  width: auto;
+}
+
+.row-left {
+  width: 49%;
+  float: left;
+}
+
+.row-right {
+  width: 49%;
+  float: right;
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+}
+
+small {
+  color: #6c757d!important;
+  display: block;
+  margin-top: .25rem;
+  font-size: 60%;
+  font-weight: 400;
+  text-align: center;
+}
+
+.leftzoom {
+  transition: transform .2s;
+}
+
+.leftzoom:hover {
+  transform: scale(1.75) translateX(25%);
+}
+
+.rightzoom {
+  transition: transform .2s;
+}
+
+.rightzoom:hover {
+  transform: scale(1.5) translateX(-25%) translateY(-10%);
+}
+
+
