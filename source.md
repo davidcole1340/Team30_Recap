@@ -16,9 +16,35 @@ name: template_slide
 .footer[Team 30 - Varun Bora, Thomas Culham, Pranav Gulati, David Cole]
 
 ---
-name: hardware_1
+name: last_presentation
 
-# Hardware (PI)
+.last_presentation[
+### Recap From Our Last Presentation
+]
+
+- Build a Bluetooth energy monitor that measures voltage, current, power and energy
+- Development of sensors and signal conditioning circuits
+
+.row[
+.last-left[
+.last_presentation[
+### Since The Last Presentation
+]
+- Firmware finalized
+- Breadboarding started, PCB has arrived
+- Smart Energy Challenge attempted
+]
+
+.last-right[
+  <img src="img/hardware/pcb.jpg" height="300" class="pcb-expand">
+  <small>Figure I: PCB Design</small>
+]
+]
+
+---
+name: hardware
+
+# Hardware
 
 .row[
 .row-left[
@@ -30,14 +56,6 @@ name: hardware_1
   <small>Figure I: Breadboarding</small>
 ]
 ]
-
----
-name: hardware_2
-
-# Hardware (PII)
-
-.center[<img src="img/hardware/pcb.jpg" height="400">]
-<small>Figure II: PCB</small>
 
 ---
 name: accuracy_1
