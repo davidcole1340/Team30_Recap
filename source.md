@@ -53,7 +53,7 @@ name: hardware
 ]
 .row-right[
   <img src="img/hardware/breadboard.jpg">
-  <small>Figure I: Breadboarding</small>
+  <small>Figure II: Breadboarding</small>
 ]
 ]
 
@@ -65,11 +65,11 @@ name: accuracy_1
 <div class="row">
   <div class="row-left">
     <img src="img/accuracy/voltage.png">
-    <small>Figure I: Ideal vs Measured Voltage</small>
+    <small>Figure III: Ideal vs Measured Voltage</small>
   </div>
   <div class="row-right">
     <img src="img/accuracy/current.png">
-    <small>Figure II: Ideal vs Measured Current</small>
+    <small>Figure IV: Ideal vs Measured Current</small>
   </div>
 </div>
 
@@ -89,7 +89,7 @@ name: accuracy_2
   </div>
   <div class="row-right">
       <img src="img/accuracy/power.png">
-      <small>Figure III: Ideal vs Measured Power</small>
+      <small>Figure V: Ideal vs Measured Power</small>
   </div>
 </div>
 
@@ -101,11 +101,11 @@ name: flowcharts
 <div class="row">
   <div class="row-left">
     <img src="img/firmware/main.png" class="leftzoom">
-    <small>Figure I: Main and sub-module logic</small>
+    <small>Figure VI: Main and sub-module logic</small>
   </div>
   <div class="row-right">
     <img src="img/firmware/adc.png" class="rightzoom">
-    <small>Figure II: ADC/Sensor logic</small>
+    <small>Figure VII: ADC/Sensor logic</small>
   </div>
 </div>
 
@@ -129,7 +129,7 @@ name: sec_1
   </div>
   <div class="row-right">
     <img src="img/challenge/thingspeak.png">
-    <small>Figure IV: ThingSpeak Interface</small>
+    <small>Figure VIII: ThingSpeak Interface</small>
     <small>Screenshot taken from https://thingspeak.com/channels/935349</small>
   </div>
 </div>
@@ -156,7 +156,7 @@ name: sec_2
   </div>
   <div class="row-right" style="width: 30%">
     <img src="img/challenge/flowchart.png" style="height: auto; width: auto;">
-    <small>Figure V: Challenge logic flowchart</small>
+    <small>Figure IX: Challenge logic flowchart</small>
   </div>
 </div>
 
@@ -167,7 +167,7 @@ name: sec_3
 
 .center[
   <img src="img/challenge/interface.png" height="425">
-  <small>Figure VI: Challenge interface</small>
+  <small>Figure X: Challenge interface</small>
 ]
 
 ---
