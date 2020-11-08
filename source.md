@@ -36,6 +36,30 @@ name: flowcharts
 - Auto-triggering the ADC with a 1ms timer to ensure 1kHz sample rate.
 
 ---
+name: hardware_1
+
+# Hardware (PI)
+
+.row[
+.row-left[
+- Started to breadboard our project last week
+- Learning about the wonders of noise in electrical signals
+]
+.row-right[
+  <img src="img/hardware/breadboard.jpg">
+  <small>Figure I: Breadboarding</small>
+]
+]
+
+---
+name: hardware_2
+
+# Hardware (PII)
+
+.center[<img src="img/hardware/pcb.jpg" height="400">]
+<small>Figure II: PCB</small>
+
+---
 name: accuracy_1
 
 # Accuracy (PI)
