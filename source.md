@@ -16,26 +16,6 @@ name: template_slide
 .footer[Team 30 - Varun Bora, Thomas Culham, Pranav Gulati, David Cole]
 
 ---
-name: flowcharts
-
-# Firmware Implementation
-
-<div class="row">
-  <div class="row-left">
-    <img src="img/firmware/main.png" class="leftzoom">
-    <small>Figure I: Main and sub-module logic</small>
-  </div>
-  <div class="row-right">
-    <img src="img/firmware/adc.png" class="rightzoom">
-    <small>Figure II: ADC/Sensor logic</small>
-  </div>
-</div>
-
-???
-- Usage of state in the ADC interrupt.
-- Auto-triggering the ADC with a 1ms timer to ensure 1kHz sample rate.
-
----
 name: hardware_1
 
 # Hardware (PI)
@@ -83,9 +63,10 @@ name: accuracy_2
 <div class="row">
   <div class="row-left">
 .left[
+- Brief was set to be within 5% of the true value
 - Voltage and Current within 1%
 - Power within 5%
-- Not as accurate as we would have liked
+  - Not as accurate as we would have liked
 ]
   </div>
   <div class="row-right">
@@ -93,6 +74,26 @@ name: accuracy_2
       <small>Figure III: Ideal vs Measured Power</small>
   </div>
 </div>
+
+---
+name: flowcharts
+
+# Firmware Implementation
+
+<div class="row">
+  <div class="row-left">
+    <img src="img/firmware/main.png" class="leftzoom">
+    <small>Figure I: Main and sub-module logic</small>
+  </div>
+  <div class="row-right">
+    <img src="img/firmware/adc.png" class="rightzoom">
+    <small>Figure II: ADC/Sensor logic</small>
+  </div>
+</div>
+
+???
+- Usage of state in the ADC interrupt.
+- Auto-triggering the ADC with a 1ms timer to ensure 1kHz sample rate.
 
 ---
 name: sec_1
@@ -105,7 +106,7 @@ name: sec_1
 - Implement a web-based interface for data logging readings from the Smart Energy Monitor
 - Option to utilize an IoT platform (ThingSpeak, Google Cloud IoT Core)
   - Not all platforms are free depending on usage
-  - Can have limited options
+  - Limited customizability
 ]
   </div>
   <div class="row-right">
