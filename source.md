@@ -31,7 +31,8 @@ name: last_presentation
 ### Since The Last Presentation
 ]
 - Firmware finalized
-- Breadboarding started, PCB has arrived
+- Set up sensors and signal conditioning circuits on breadboard
+- PCB has arrived ready for assembly
 - Smart Energy Challenge attempted
 ]
 
@@ -50,6 +51,10 @@ name: hardware
 .row-left[
 - Started to breadboard our project last week
 - Learning about the wonders of noise in electrical signals
+- Modified our firmware to work with the 16MHz clock vs. 800kHz
+  - Timer configuration was designed to work with both clock speeds
+  - Timer compare values are based off the `F_CPU` value, so not many changes required
+- ADC sample frequency increased from 1kHz to 10kHz as the source was increased from 50Hz to 500Hz
 ]
 .row-right[
   <img src="img/hardware/breadboard.jpg">
@@ -85,6 +90,7 @@ name: accuracy_2
 - Voltage and Current within 1%
 - Power within 5%
   - Not as accurate as we would have liked
+  - Likely due to the inefficiencies in the ADC interrupt
 ]
   </div>
   <div class="row-right">
@@ -125,6 +131,7 @@ name: sec_1
 - Option to utilize an IoT platform (ThingSpeak, Google Cloud IoT Core)
   - Not all platforms are free depending on usage
   - Limited customizability
+- Ended up implementing a custom data logger and interface written in TypeScript
 ]
   </div>
   <div class="row-right">
@@ -142,16 +149,16 @@ name: sec_2
 <div class="row">
   <div class="row-left"style="width: 65%">
 .left[
-- Bypassed IoT platforms and built our own with open-source libraries:
-  - chart.js and zoom plugin for HTML charts
-  - React.js to tie the interface together
-  - node-serialport to read from the USB-to-serial adapter and/or bluetooth module
 - Daemon module:
   - Reads from Smart Energy Monitor serial port
   - Stores in a MongoDB database
   - Pushes latest readings to clients via WebSocket
 - Web interface:
   - Receives readings from daemon and displays on a user-friendly chart
+- Utilized open-source libraries:
+  - chart.js and zoom plugin for HTML charts
+  - React.js to tie the interface together
+  - node-serialport to read from the USB-to-serial adapter and/or Bluetooth module
 ]
   </div>
   <div class="row-right" style="width: 30%">

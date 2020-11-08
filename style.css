@@ -182,6 +182,9 @@ h1 {
 .row img {
   width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 small {
